@@ -15,16 +15,22 @@ This enhanced version fixes those issues and works seamlessly with modern macOS 
 
 ## How to Use
 
-1. **Download** the latest release
-2. **Extract** and run the app once to grant permissions
-3. **Add to Login Items**: System Preferences → Users & Groups → Login Items
-4. **Restart** your Mac
+1. **Download** the latest release `WallpaperVideoExtensionFix-macos-arm64.zip` as a compiled binary or compile it yourself
+2. **Extract** the binary from the downloaded zip file
+3. **Allow macOS to run the binary** by executing:
+   ```
+   chmod +x /path/to/WallpaperVideoExtensionFix.app/Contents/MacOS/WallpaperVideoExtensionFix
+   ```
+4. **Run the app once** and grant the necessary permissions
+5. **Add the binary to your login items** to ensure it launches automatically at login
+6. **Log out, then log back in** to start the utility
+7. **(Optional)** Confirm the app is running by opening Activity Monitor and searching for `WallpaperVideoExtensionFix`
 
-That's it! The utility runs silently in the background and fixes your wallpaper issues automatically.
+The utility runs silently in the background and fixes your wallpaper issues automatically.
 
 ## Compatibility
 
-- ✅ macOS Sequoia 
+- ✅ macOS Sequoia
 - ✅ macOS Tahoe
 - ❌ Earlier versions (use original version)
 
@@ -32,8 +38,8 @@ That's it! The utility runs silently in the background and fixes your wallpaper 
 
 Based on the original WallpaperVideoExtensionFix by Proton0. Enhanced for modern macOS compatibility.
 
+Credits to @Proton0 for original script
+
 ---
 
 **If this fixed your wallpaper issues, please ⭐ star this repo!**
-
-Credits to @Proton0 for original script
