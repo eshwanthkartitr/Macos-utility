@@ -4,7 +4,7 @@ A simple utility to fix custom Aerial wallpaper issues on macOS Sequoia and Taho
 
 ## The Problem
 
-The original WallpaperVideoExtensionFix worked for earlier macOS versions but failed on **macOS Sequoia (15.x)** and **macOS Tahoe**, causing:
+The original WallpaperVideoExtensionFix worked for earlier macOS versions but failed on **macOS Tahoe (26.x)** and **macOS Sequoia**, causing:
 - Blank/gray screens on login
 - Custom Aerial wallpapers not loading properly
 - System conflicts with WallpaperVideoExtension service
@@ -24,7 +24,7 @@ That's it! The utility runs silently in the background and fixes your wallpaper 
 
 ## Compatibility
 
-- ✅ macOS Sequoia (15.x)
+- ✅ macOS Sequoia 
 - ✅ macOS Tahoe
 - ❌ Earlier versions (use original version)
 
@@ -35,3 +35,5 @@ Based on the original WallpaperVideoExtensionFix by Proton0. Enhanced for modern
 ---
 
 **If this fixed your wallpaper issues, please ⭐ star this repo!**
+
+Credits to @Proton0 for original script
